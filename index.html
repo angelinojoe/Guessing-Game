@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+  <body>
+
+      <div id='app' class="container">
+
+        <div id='headers' class="center">
+          <!-- Title and subtitles! -->
+          <h1>Guessing Game</h2>
+          <h3>Guess A Number Between 1 And 100</h3>
+        </div>
+
+        <div id='main' class="center">
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id="player-input" type="text" name="guess" 
+            placeholder="#" autofocus maxlength="3">
+            <button id="submit" class="btn btn-success">GO!</button>
+          </div>
+
+          <div id='guesses' class="center">
+            <!-- unordered list of guesses -->
+            <ul>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns" class="center">
+            <!-- reset and hint buttons -->
+            <button class="btn btn-danger">RESET</button>
+            <button class="btn btn-warning">HINT</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class="center">
+        <div class="row">
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4 id="projectBy">Project by Joe Angelino</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
